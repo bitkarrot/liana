@@ -13,3 +13,4 @@ RUN mkdir -p liana_quicktry
 
 COPY . .
 
+RUN cargo build --release
